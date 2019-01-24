@@ -21,8 +21,22 @@ h1 {
 	<option>愿意</option>
 	<option>当然愿意啊！</option>
 </select>
+	<script type="text/javascript">
+function show_confirm()
+{
+var r=confirm("快乐的提交");
+if (r==true)
+  {
+  alert("真的输对了嘛");
+  }
+else
+  {
+  alert("还有没有别的卡？");
+  }
+}
+</script>
   <div>那告诉我密码吧: <input type="text" name="password" /></div>
-  <div><input type="submit" value="快乐的提交" /></div>
+  <div><input type="submit" onclick="show_confirm()" value="快乐的提交" /></div>
 <p>谢谢阿呆</p>
 <img src = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548306444914&di=fb7299c8750e7eb0b93a7ca4bd122bf3&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201706%2F22%2F20170622231833_f8kVS.jpeg" width = "240" height = "240">
 </body>
