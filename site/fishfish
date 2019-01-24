@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>请问</title>
+</head>
+<body>
+	<p>你想小艾吗</p>>
+<select>
+  <option>想</option>
+  <option>巨无霸想</option>
+  <option>螺旋720度想</option>
+</select>
+<p>你愿意告诉小艾银行卡密码吗？</p>
+<select>
+	<option>愿意</option>
+	<option>当然愿意啊！</option>
+</select>
+</body>
+</html>
